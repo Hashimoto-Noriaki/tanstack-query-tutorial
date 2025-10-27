@@ -13,6 +13,10 @@ const Posts = () => {
         },
     });
 
+    if(error){
+        return <div>エラーが発生しました。</div>
+    }
+
     // console.log(data)
 
     return (
